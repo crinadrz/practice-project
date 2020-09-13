@@ -12,6 +12,9 @@ body{
 .container{
   width: 50%;
   margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
 header{
   background: rgb(14, 13, 13);
@@ -24,7 +27,7 @@ header ::after{
 }
 .logo{
   float:left;
-  padding-top: 10px 0;
+  
  
 }
 nav{
@@ -51,6 +54,7 @@ nav a{
 }
 
 nav a:hover{
-  background-color: gray;
+  background-color:rgb(177, 174, 174);
   color: white;
+  
 }
